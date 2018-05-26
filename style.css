@@ -1,8 +1,9 @@
 body{
-    background-color: white;
+    background-color: black;
     margin: 0;
     font-family: 'Rokkitt', serif;
     max-width: 1920px;
+    background-image: url(Images/Golden-Gate2.jpg)
 }
 
 
@@ -13,8 +14,8 @@ body{
 }
 
 .logoContainer{
-    margin-top: 280px;
-    margin-left: 320px;
+    margin-top: 260px;
+    margin-left: 260px;
     font-size: 1.4rem;
     float: left;
     position: relative;
@@ -22,8 +23,8 @@ body{
 
 .logo{
     margin-top: 10px;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 2.4rem;
+    color: white;
     font-family: 'Indie Flower', cursive;
     float: left;
 }
@@ -31,14 +32,13 @@ body{
 #nav {
 position: fixed;
 width: 100%;
-margin-left: auto;
+margin-left: ;
 margin-right: auto;
-height: 1px;
 }
 
 #nav a:hover {
-    background-color: gold;
-    opacity: 1;
+    background-color: #fe9c2d;
+    opacity: 1;  
 }
 
 #nav2 {
@@ -61,7 +61,7 @@ height: 1px;
 
 .links a{
     padding-top: 20px;
-    color:black;
+    color:white;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
