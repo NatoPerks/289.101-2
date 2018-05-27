@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    
-        <title>GLDN G8*</title>
-        <link rel="stylesheet" href="style.css">
-        
-           
-    </head>
-    
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramid Clothing</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- Jquery before Bootstrap -->
+  <link rel="stylesheet" href="jquery.fancybox.min.css" /> <!-- Bootstrap after Jquery -->
+  <script src="jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="summer.css">
+  </head>
     <body>
-    
-        <div class="header">
-            
-            <div class="margin">
-<!-- Logo -->
-                   <div class="logoContainer">
-                    <div class="logo"> GLDN G8<span style="color: #fe9c2d">*</span> <!-- Logo <img src="Images/Logo.png" width="190px" height="50px";> --> </div>
-                       </div>
-<!-- Page Links -->      
-                    <div id="nav">
-                        <div class="links">
-                      
-                        <!-- home button <a href="#"><span>home</span></a> -->
-                        <a href="#mens">summer/spring</a>  <br> 
-                        <a href="#womans">winter/autumn</a> <br>
-                        <a href="#instagram">accessories</a>  <br>
-                        <a href="#music">stores</a>     <br>
-                        <a href="#contact">contact</a>
-                     </div>
-                </div>
-<!-- Social Links -->             
-                <div id="nav2">
-                        <div class="socialsContainer">
-                            <div class="insta">   
-                        <a href="https://www.instagram.com/bynatop/" id="insta" target="_blank"><img src="Images/Insta.jpg" alt="Gram" width="20px" height="20px;"></a>
-                            </div>
-                            
-                            <div class="twitter">
-                        <a href="https://twitter.com/bynatop?lang=en" id="twitter" target="_blank"><img src="Images/Twitter.png" alt="Twitter" width="20px" height="19px;"></a>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    </div>
+
+      <header>
+            <div class="logoContainer">
+                <div class="logo"> GLDN G8<span style="color: #fe9c2d">*</span> <!-- Logo <img src="Images/Logo.png" width="190px" height="50px";> --> </div>
             </div>
-    
+      </header>
+      <main>
+         
+        <div class="titleContainer">
+          <div class="title">
+            summer/spring collection 2018
+          </div>  
+        </div>
+<!-- Gallery -->
+          
+<div class="container">
+      <div class="galleryContainer">
+
+        <div class="galleryImages columns wrap">
+
+        <div class="column"> <a data-fancybox="gallery" href="designs/KurtShirt.jpg"><img src="designs/KurtShirt.jpg" width="150px" height="187.5px";></a>
+          
+        </div>
+        <div class="column"> <a data-fancybox="gallery" href="designs/NasShirt.jpg"><img src="designs/NasShirt.jpg" width="150px" height="187.5px";></a>
+          
+        </div>
+        <div class="column"> <a data-fancybox="gallery" href="designs/GambinoShirt.jpg"><img src="designs/GambinoShirt.jpg" width="150px" height="187.5px";></a>
+          
+        </div>
+        <div class="column"> <a data-fancybox="gallery" href="designs/KanyeShirt.jpg"><img src="designs/KanyeShirt.jpg" width="150px" height="187.5px";></a>
+          
+        </div>
+       
+        </div>
+
+      </div>
+    </div>
+<!-- Links -->
+        <nav>
+          <div class="nav">
+                <div class="container">
+                  <div class="linksContainer">
+                    <div class="columns links">
+                        
+                        <a class="column" href="Home.html">home</a>
+                        <a class="column" href="winter.html">winter/autumn</a>
+                        <a class="column" href="about.html">accessories</a>
+                        <a class="column" href="stores.html">stores</a>
+                        <a class="column" href="contact.html">contact</a>
+                        
+                  </div>
+                </div>
+              </div>
+          </div>
+        </nav>
+</main>
     </body>
 </html>

@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Rokkitt', serif;
+    max-width: 1920px;
+    background-image: url(Images/Golden-Gate2.jpg)
+}
+
+
+.margin{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logoContainer{
+    margin-top: 260px;
+    margin-left: 260px;
+    font-size: 1.4rem;
+    float: left;
+    position: relative;
+}
+
+.logo{
+    margin-top: 10px;
+    font-size: 2.4rem;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    float: left;
+}
+
+#nav {
+position: fixed;
+width: 100%;
+margin-left: ;
+margin-right: auto;
+}
+
+#nav a:hover {
+    background-color: #fe9c2d;
+    opacity: 1;  
+}
+
+#nav2 {
+    opacity: 1;
+}
+
+#nav2 a:hover {
+    opacity: 0.2;
+}
+
+.links{
+    margin-top: 360px;
+    margin-left: 350px;
+    font-size: 0.8rem;
+    float:left;
+    color:white;
+    display: inline-block;
+    position: relative;
+}
+
+.links a{
+    padding-top: 20px;
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    float:left;
+    
+    
+}
+
+.gold{
+    color: gold;
+}
+
+.socialsContainer{
+    padding-top: 560px;
+    margin-top: 10px;
+    margin-left: 320px;
+    height: 20px;
+    position: absolute;
+}
+
+.insta{
+    float: left;
+}
+
+.twitter{
+    float:left;
+    padding-left: 3px;
+}
+
+<<<<<<< HEAD
+@media screen and (max-width: 768px){
+  #links a {
+    float: left;
+    font-size: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #links {
+    overflow: hidden;
+    text-align: center;
+  }
+=======
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+>>>>>>> origin/master
+
+
