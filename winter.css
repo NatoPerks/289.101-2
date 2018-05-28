@@ -80,7 +80,7 @@ body {
 
 
 .galleryContainer {
-    width: 306px;
+    width: 366px;
     height: 400px;
     text-align: center;
     margin-left: auto;
@@ -91,8 +91,8 @@ body {
 }
 
 .galleryImages div {
-  width: 150px;
-  height: 187.5px;
+  width: 180px;
+  height: 180px;
   float: left;
   margin-left: 2px;
   margin-bottom: 2px;
