@@ -26,7 +26,7 @@ body {
     font-size: 3rem;
     text-align: center;
     margin: 0;
-    margin-top: 200px;
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -143,9 +143,10 @@ body {
     margin-left: 115px;
   }
 
-  #logo {
+  #logoContainer {
     height: 250px;
-    border-bottom: 3px solid black;
+    padding: none;
+      
   }
 
   #logoContainer {

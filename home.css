@@ -23,8 +23,8 @@ body{
 }
 
 .logo{
-    margin-left: 260px;
-    margin-top: 260px;
+    padding-left: 260px;
+    padding-top: 260px;
     font-size: 2.4rem;
     color: white;
     font-family: 'Indie Flower', cursive;
@@ -52,19 +52,34 @@ body{
     opacity: 0.2;
 }
 
+.bottom-column{
+    float: left;
+    display: inline;
+    font-size: 0.8rem;
+    width: 10px;
+    height: 160px;
+}
 
+bottom-column a{
+    text-decoration: none;
+    color: #6a6a6a;
+    float: left;
+    left: 50px;
+    padding-top: 2px;
+    font-size: 0.8rem;
+}
 
 .linksContainer{
     height: 200px;
-    width: 30px;
+    width: 960px;
     font-size: 0.8rem;
     float: left;
     text-align: center;
-    margin-left: 350px;
+    padding-left: 350px; 
 }
 
 .linksContainer a{
-    padding-top: 30px;
+    padding-top: 20px;
     color:white;
     text-decoration: none;
     float:left;
@@ -75,7 +90,7 @@ body{
     width: 960px;
     text-align: center;
     float: left;
-    margin-left: 260px;
+    padding-left: 260px;
 }
 
 .insta{
@@ -89,6 +104,15 @@ body{
 
 <<<<<<< HEAD
 @media screen and (max-width: 768px){
+    
+    #logoContainer{
+        text-align: center;
+        float: none;
+        width: auto;
+        padding-left: none;
+        padding-top: none;
+    }
+        
   #linksContainer a {
     float: left;
     font-size: 0.55rem;
@@ -109,31 +133,26 @@ body{
 
 >>>>>>> origin/master
     
-    #linksContainer a {
-    float: left;
+    #logoContainer{
+        text-align: center;
+        float: none;
+        width: auto;
+        padding-left: 0px;
+    }
+    
+    #links a {
+    float: none;
     font-size: 0.55rem;
-    overflow: hidden;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 35px;
-    margin-right: 0px;
   }
     
       #logo {
     overflow: hidden;
     width: 35%;
     float: left;
-    margin-left: 115px;
+    margin-left: 20px;
   }
 
-  #logo {
-    height: 250px;
-    border-bottom: 3px solid black;
-  }
 
-  #logoContainer {
-    height: 457.5px;
-  }
-
+}
 

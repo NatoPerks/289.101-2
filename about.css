@@ -109,6 +109,7 @@ body {
     float: left;
     font-size: 0.55rem;
   }
+    
 }
 
 @media screen and (max-width: 375px) {
@@ -151,5 +152,9 @@ body {
   #logoContainer {
     height: 457.5px;
   }
+
+    #section1 logo{
+        margin-left: 0px;
+    }
 
 }
