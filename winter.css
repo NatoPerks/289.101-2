@@ -16,7 +16,7 @@ body {
 }
 
 .nav a:hover:not(.active) {
-    background-color: rgb(236,240,241);
+    background-color: #fe9c2d;
 
 }
 
