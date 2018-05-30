@@ -7,12 +7,12 @@ body {
 }
 
 .nav {
-    position: fixed;
+    
     width: 100%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 3px solid black;
+    
 }
 
 .nav a:hover:not(.active) {
@@ -21,7 +21,7 @@ body {
 }
 
 .logoContainer{
-    width: 960px;
+    width: 200px;
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
@@ -29,18 +29,20 @@ body {
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10%;
 }
 
 .logo{
     color: black;
     font-family: 'Indie Flower', cursive;
-    width: 600px;
+    width: 200px;
     letter-spacing: -0.75px;
     margin: 0;
     font-size: 2.4rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 .title container{
@@ -57,8 +59,8 @@ body {
 }
 
 .linksContainer {
-    height: 25px;
-    width: 960px;
+    height: auto;
+    width: 100%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -66,6 +68,8 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 .links a {
@@ -74,7 +78,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-
+    
     font-family: 'Indie Flower', cursive;
 }
 
@@ -86,12 +90,18 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 3px;
+    padding-top: 3px; 
+    max-width: 100%;
+    height: auto;
+}
 
+.imageContainer img{
+    max-width: 100%;
+    height: auto;
 }
 
 .pContainer{
-    height: 100px;
+    height: 90px;
     width: 960;
     text-align: center;
 }
@@ -104,17 +114,17 @@ body {
 
 <<<<<<< HEAD
 @media screen and (max-width: 768px){
-  #links a {
-    float: left;
-    font-size: 0.55rem;
-  }
+    .linksContainer a{
+        font-size: 0.6rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
-  #links {
-    overflow: hidden;
-    text-align: center;
-  }
+    .linksContainer a{
+        font-size:0.6rem;
+        }
+    }
+}
 =======
 @media screen and (max-width: 767px) {
 
@@ -124,31 +134,5 @@ body {
 
 >>>>>>> origin/master
 
-  #links a {
-    float: left;
-    font-size: 0.55rem;
-    overflow: hidden;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 35px;
-    margin-right: 0px;
-  }
-
-  #logo {
-    overflow: hidden;
-    width: 35%;
-    float: left;
-    margin-left: 115px;
-  }
-
-  #logo {
-    height: 250px;
-    border-bottom: 3px solid black;
-  }
-
-  #logoContainer {
-    height: 457.5px;
-  }
-
+ 
 }
